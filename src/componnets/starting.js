@@ -39,7 +39,7 @@ const Starting = () => {
     const [products, setProducts] = useState(productsData);
     const [count, setCount] = useState(4);
     const [openModal,setOpenModal] = useState(false);
-         
+            
     
      // const update = (data) => {
        // let newProducts = [...products]
