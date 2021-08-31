@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react';
+import React,{useState} from 'react';
 import { BootstrapTable, TableHeaderColumn } from "react-bootstrap-table";
 import Modal from "./Modal";
 
@@ -39,29 +39,9 @@ const Starting = () => {
     const [products, setProducts] = useState(productsData);
     const [count, setCount] = useState(4);
     const [openModal,setOpenModal] = useState(false);
-            
-    
-     // const update = (data) => {
-       // let newProducts = [...products]
-      //  newProducts[0].first = data
         
-
-     // setProducts(newProducts)
-
-    //}
-       
-     
-      function handleAdd() {
-        const first =  'first' ;
-        const last = 'last';
-        const handle = 'handle' ;
-        const handleClick =  () => setCount(count+1)
-        const newList = products.concat({first:first,last:last,handle:handle, id:count });
         
-        setCount(handleClick);
-        
-        setProducts(newList)
-      }
+      
 
        const handleRemove = () => {
        let newList = products.filter((id) => products.id !== id);
