@@ -41,7 +41,7 @@ const Starting = () => {
     const [openModal,setOpenModal] = useState(false);
         
         
-      
+    
 
        const handleRemove = () => {
        let newList = products.filter((id) => products.id !== id);
