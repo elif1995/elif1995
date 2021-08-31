@@ -71,10 +71,7 @@ const Starting = () => {
        setProducts(newList);
       }
 
-      const handleChange = () => {
-
-      }
-
+     
       return (
           <div >
             
